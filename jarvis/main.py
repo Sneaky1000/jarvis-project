@@ -12,7 +12,7 @@ def main():
     listener = AudioListener()
     llm = LocalModelLLM()
 
-    print("Jarvis is running... Say something! (say 'Jarvis exit' or type 'exit' to quit)")
+    print("Jarvis is running... Say something! (say 'Jarvis exit' to quit)")
 
     while True:
         command = listener.listen()
@@ -20,7 +20,7 @@ def main():
         if command is None:
             continue
 
-        if command.lower() == "exit":
+        if command.lower() == "jarvis exit":
             print(f"Goodbye, {username}!")
             sys.exit(0)
 

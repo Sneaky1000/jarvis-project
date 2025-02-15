@@ -1,11 +1,10 @@
-audioop-lts==0.2.1
+# audioop-lts==0.2.1
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
 gpt4all==2.8.2
 idna==3.10
 iniconfig==2.0.0
--e git+ssh://git@github.com/Sneaky1000/jarvis-project.git@4cbdfb9cf230e0abac99280ff0a6ac63dd8357e6#egg=jarvis
 MouseInfo==0.1.3
 packaging==24.2
 pluggy==1.5.0
